@@ -79,6 +79,10 @@ class Owner
       dog.mood ="nervous"
     end
     @pets.clear
+  end
 
+  def list_pets
+    fish_count = @pets[:fishes].length
+    puts "I have #{{fish_count}} fish"
   end
 end
