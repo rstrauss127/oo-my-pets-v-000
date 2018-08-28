@@ -83,6 +83,6 @@ class Owner
 
   def list_pets
     fish_count = @pets[:fishes].length
-    puts "I have #{fish_count} fish"
+     "I have #{fish_count} fish"
   end
 end
